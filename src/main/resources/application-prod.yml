@@ -1,0 +1,24 @@
+spring:
+  application:
+    name: spirng-boot-rabbitmq-demo
+  groovy:
+    template:
+      check-template-location: false
+  redis:
+    database:
+    host:
+    port:
+    timeout: 500
+    lettuce:
+      pool:
+        max-active: 8
+        max-wait: -1
+        max-idle: 8
+        min-idle: 0
+springfox:
+  documentation:
+    swagger:
+      v2:
+        path: /api-docs
+logging:
+  config: classpath:logback.groovy
