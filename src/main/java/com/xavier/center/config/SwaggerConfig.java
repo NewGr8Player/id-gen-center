@@ -27,7 +27,6 @@ public class SwaggerConfig {
     public Docket openApi() {
 
         return new Docket(DocumentationType.SWAGGER_2)
-                .groupName("ElasticSearch")
                 .genericModelSubstitutes(DeferredResult.class)
                 .useDefaultResponseMessages(false)
                 .forCodeGeneration(false)

@@ -5,13 +5,10 @@ import com.xavier.center.config.BasicScript;
 import groovy.lang.Binding;
 import groovy.lang.GroovyShell;
 import groovy.lang.Script;
+import org.codehaus.groovy.control.CompilerConfiguration;
 
-import java.util.HashMap;
 import java.util.Hashtable;
 import java.util.Map;
-
-import org.codehaus.groovy.control.CompilerConfiguration;
-import org.springframework.util.CollectionUtils;
 
 public class ExprUtil {
 
